@@ -1,0 +1,26 @@
+usage is as follows:
+
+needs the following pre configs:
+1. mounted hard disk
+2. files to exclude and files to include
+3. ability to run with sudo
+
+configs 
+1. sudo mount /dev/sdb1 /mnt/2tb_hdd
+2. update the files backup_list.txt and exclude_list.txt
+3. place the files created in step 2 in a folder of your choice say "Sync"
+4. change the script to update the following as needed:
+logfile_name="Sync/logs/backup_avinash_"$today".log"
+folder_list_file_name="Sync/backup_list.txt"
+exclude_list_file_name="Sync/exclude_list.txt"
+mount_point="/mnt/2tb_hdd"
+5. use the following command to sync from current location using:
+
+for the dry run -  show the files that will be synced but not the actual sync
+sudo sh ~/development/scripts/sync_to_hdd.sh dryrun
+
+for the actual run - 
+sudo sh ~/development/scripts/sync_to_2tb_hard_disk.sh run
+6. The logs will be placed in the location specified in the logfile_name param in the script as in step 3
+
+

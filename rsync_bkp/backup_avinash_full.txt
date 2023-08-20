@@ -1,0 +1,6 @@
+/media/sdb3/
+/home/avinash/Pictures/
+/home/avinash/some_folder2/
+/home/avinash/some_folder
+/home/avinash/some_folder3
+/home/avinash/Documents

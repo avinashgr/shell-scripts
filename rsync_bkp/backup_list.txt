@@ -1,0 +1,6 @@
+/media/sdb3/
+/home/avinash/Pictures/
+/home/avinash/development/scripts/
+/home/avinash/development/ui-workspace/
+/home/avinash/development/node-workspace/
+/home/avinash/Documents/
